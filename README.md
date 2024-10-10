@@ -1,0 +1,1 @@
+# Computer-Vision-based-Insect-Pests-Detection-for-Efficient-Insecticide-Deployment
