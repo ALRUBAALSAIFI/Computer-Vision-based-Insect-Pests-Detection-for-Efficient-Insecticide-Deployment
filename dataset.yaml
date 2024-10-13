@@ -1,0 +1,10 @@
+train: D:\ip_train_y8\data\train\images
+val: D:\ip_train_y8\data\val\images
+
+# nc: 1
+# names: ['pest']
+
+# number of classes
+nc: 14
+# class names
+names: ['beetle', 'earwig','grasshopper','moth','wasp','weevil','ants','caterpillar','aphids','bee','butterfly','fly','dragonfly','spider']

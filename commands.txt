@@ -1,0 +1,6 @@
+//Train data using GPU
+yolo task=detect mode=train model=yolov8n.pt data=D:\ip_train_y8\dataset.yaml epochs=40 imgsz=640 device=0
+//Train data using CPU
+yolo task=detect mode=train model=yolov8n.pt data=D:\ip_train_y8\dataset.yaml epochs=40 imgsz=640
+//Installation of nVidia libraries
+pip install pytorch torchvision torchaudio pytorch-cuda=12.2 -c pytorch -c nvidia
